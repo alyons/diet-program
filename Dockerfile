@@ -11,4 +11,6 @@ USER app
 WORKDIR $HOME/diet-program
 RUN npm install
 
+EXPOSE 8080
+
 CMD ["npm", "run", "dev"]
