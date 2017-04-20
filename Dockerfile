@@ -10,3 +10,5 @@ RUN chown -R app:app $HOME/*
 USER app
 WORKDIR $HOME/diet-program
 RUN npm install
+
+CMD ["npm", "run", "dev"]

@@ -3,7 +3,8 @@ version: '2'
 services:
   diet-program:
     build: .
-    command: echo 'ready'
+    ports:
+      - '3000:3000'
     volumes:
       - .:/home/app/diet-program
       - /home/app/diet-program/node_modules
