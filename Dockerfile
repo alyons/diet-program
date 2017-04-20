@@ -11,6 +11,11 @@ USER app
 WORKDIR $HOME/diet-program
 RUN npm install
 
+USER root
+COPY . $HOME/diet-program
+RUN chown -R app:app $HOME/*
+USER app
+
 EXPOSE 8080
 
 CMD ["npm", "run", "dev"]
