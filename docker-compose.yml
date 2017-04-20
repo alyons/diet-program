@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  diet-program:
+    build: .
+    command: echo 'ready'
+    volumes:
+      - .:/home/app/diet-program
