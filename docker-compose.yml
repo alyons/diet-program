@@ -6,3 +6,4 @@ services:
     command: echo 'ready'
     volumes:
       - .:/home/app/diet-program
+      - /home/app/diet-program/node_modules
