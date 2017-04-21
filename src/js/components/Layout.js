@@ -8,17 +8,14 @@ export default class Layout extends React.Component {
     super();
     this.state = {
       title: "Welcome",
+      imagePath: "../../img/Day_0_article_1_@2x.jpg",
     };
-  }
-
-  changeTitle(title) {
-    this.setState({title});
   }
 
   render() {
     return (
       <div>
-        <Header changeTitle={this.changeTitle.bind(this)} title={this.state.title} />
+        <Header title={this.state.title} imagePath={this.state.imagePath} />
         <Footer />
       </div>
     );

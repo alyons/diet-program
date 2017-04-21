@@ -1,0 +1,10 @@
+.post-content {
+    color: white;
+    bottom: 0;
+    left: 1%;
+    position: absolute;
+}
+
+.title-image {
+    position: relative;
+}
