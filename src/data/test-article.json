@@ -1,10 +1,11 @@
 {
     "type": "article",
     "title": "Welcome!",
+    "image": "Day_0_article_1_@3x.jpg",
     "body": [
-        { "text": "Welcome to the Lume Wellness 42-Day Nutrition Challenge! We're glad you're here. No matter if you're here to lose weight, gain weight, or simply eat better, this program can help you gain the knowledge and skills you need to achieve your goals and live a healthy life."},
-        { "text": "For the next 42 days, you'll learn about nutrition, eating habits, and changing your relationship with food. Our goal is to give you sound information and useful suggestions to help you achieve your nutrition goals. Each day you'll get an article or short insight that will teach and encourage you along your journey. Some days will have quizzes where you can test how much you've learned and earn trophies. Other days will give you specific challenges to help you put your newly acquired knowledge into practice." },
-        { "text": "Remember to keep tracking your food each day. Not only will you gain more insight into your own habits, you'll see how you're changing. Plus, you can earn badges with your healthy, balanced eating!" },
-        { "text": "Good luck and enjoy the nutrition challenge!" }
+        { "span": "Welcome to the Lume Wellness 42-Day Nutrition Challenge! We're glad you're here. No matter if you're here to lose weight, gain weight, or simply eat better, this program can help you gain the knowledge and skills you need to achieve your goals and live a healthy life."},
+        { "span": "For the next 42 days, you'll learn about nutrition, eating habits, and changing your relationship with food. Our goal is to give you sound information and useful suggestions to help you achieve your nutrition goals. Each day you'll get an article or short insight that will teach and encourage you along your journey. Some days will have quizzes where you can test how much you've learned and earn trophies. Other days will give you specific challenges to help you put your newly acquired knowledge into practice." },
+        { "span": "Remember to keep tracking your food each day. Not only will you gain more insight into your own habits, you'll see how you're changing. Plus, you can earn badges with your healthy, balanced eating!" },
+        { "span": "Good luck and enjoy the nutrition challenge!" }
     ]
 }
