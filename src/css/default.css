@@ -1,0 +1,17 @@
+.post-content {
+    bottom: 0;
+    left: 1%;
+    position: absolute;
+}
+
+.title {
+    position: relative;
+}
+
+.title-image {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+}
