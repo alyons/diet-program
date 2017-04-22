@@ -1,7 +1,9 @@
 import React from 'react';
 
 import Footer from './Footer';
-import Header from './Header';
+import ContentHeader from './ContentHeader';
+import Header from './Article/Header';
+import Span from './Article/Span';
 
 export default class Article extends React.Component {
     render() {
@@ -9,16 +11,31 @@ export default class Article extends React.Component {
 
         console.log(data);
 
-        var spans = [];
+        var children = [];
 
         for(var i = 0; i < data.body.length; i++) {
-            spans.push(<p id={i}>{data.body[i].span}</p>)
+            var child;
+
+            switch (data.body[i].type) {
+                case 'header':
+                    child = <Header key={i} size={data.body[i].data.size} text={data.body[i].data.text} />;
+                    break;
+                case 'span':
+                    child = <Span key={i} text={data.body[i].data} />;
+                    break;
+                default:
+                    child = (<p key={i}>{"Unable to parse object " + i + "."}</p>);
+                    break;
+            }
+
+
+            children.push(child);
         }
 
         return (
             <div>
-                <Header title={data.title} imagePath={"../../img/" + data.image} />
-                {spans}
+                <ContentHeader title={data.title} imagePath={"../../img/" + data.image} />
+                {children}
                 <Footer />
             </div>
         );

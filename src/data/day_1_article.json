@@ -1,0 +1,22 @@
+{
+    "title": "Estimating Your Serving Sizes",
+    "image": "Day_1_article_1_@3x.jpg",
+    "body": [
+        {
+            "type": "span",
+            "data": "Now that you've decided to begin your journey to eating a healthier, balanced diet, the first step is understanding where you're starting from. So what are you eating now? How much are you eating? What types of foods do you eat the most? What types do you eat the least? Don't know the answer? That's ok. If a random person came up to us on the street and asked us tell them how much we ate, most (if not all) of us would get it wrong. We'd underestimate how much we eat on any given day. We'd also overestimate the good stuff, like how many servings of vegetables we eat, and underestimate the bad stuff, like how much sugar we eat."
+        },
+        {
+            "type": "span",
+            "data": "So what if we can't tell how much food we ate yesterday? Does it really matter? Actually, yes."
+        },
+        {
+            "type": "header",
+            "data": 
+            {
+                "text": "How much food did I just eat?",
+                "size": 3
+            }
+        }
+    ]
+}

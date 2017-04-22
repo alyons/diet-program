@@ -4,7 +4,7 @@ export default class Span extends React.Component {
 
     render() {
         return(
-            <span>{this.props.text}</span>
+            <p>{this.props.text}</p>
         );
     }
 }
